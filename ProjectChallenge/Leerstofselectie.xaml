@@ -1,0 +1,13 @@
+﻿<Window x:Class="ProjectChallenge.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Window1" Height="373.854" Width="676.041">
+    <Grid>
+        <Grid Background="#FFFFAC">
+            <TextBox IsReadOnly="True" Background="#FFFFAC" HorizontalAlignment="Left" Height="50" Margin="199,41,0,0" TextWrapping="Wrap" Text="Kies uw onderdeel" VerticalAlignment="Top" Width="268" FontSize="30" Foreground="#7A5230" BorderThickness="0"/>
+            <Button Content="Wiskunde" HorizontalAlignment="Left" Margin="224,114,0,0" VerticalAlignment="Top" Width="210" Height="36" FontSize="20" Foreground="#7A5230" Background="#FFFFE0" Click="wiskunde_Click"/>
+            <Button Content="Taal" HorizontalAlignment="Left" Margin="224,182,0,0" VerticalAlignment="Top" Width="210" Height="36" FontSize="20" Foreground="#7A5230" Background="#FFFFE0" Click="taal_Click"/>
+            <Button Content="Algemene Kennis" HorizontalAlignment="Left" Margin="224,246,0,0" VerticalAlignment="Top" Width="210" Height="36" FontSize="20" Foreground="#7A5230" Background="#FFFFE0" Click="kennis_Click"/>
+</Grid>
+    </Grid>
+</Window>

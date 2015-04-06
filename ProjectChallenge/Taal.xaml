@@ -1,0 +1,16 @@
+﻿<Window x:Class="ProjectChallenge.Window4"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Window4" Height="300" Width="300">
+    <Grid>
+        <Grid x:Name="testje" Background="#FFFFAC"></Grid>
+        <Button Content="Menu" HorizontalAlignment="Left" Margin="10,239,0,0" VerticalAlignment="Top" Width="75" Click="menu_Click"/>
+        <Button x:Name="graad1" Background="#FFFFE0" Content="1ste Graad" HorizontalAlignment="Left" Margin="106,49,0,0" VerticalAlignment="Top" Width="88" Height="37" FontSize="15" Click="eerste_Click"/>
+        <Button x:Name="graad2" Background="#FFFFE0" Content="2de Graad" HorizontalAlignment="Left" Margin="106,110,0,0" VerticalAlignment="Top" Width="88" Height="37" FontSize="15" Click="tweede_Click"/>
+        <Button x:Name="graad3" Background="#FFFFE0" Content="3de Graad" HorizontalAlignment="Left" Margin="106,171,0,0" VerticalAlignment="Top" Width="88" Height="37" FontSize="15" Click="derde_Click"/>
+        <TextBox Background="#FFFFAC" HorizontalAlignment="Left" Height="34" Margin="37,10,0,0" TextWrapping="Wrap" Text="Kies uw moeilijkheidsgraad" FontSize="18" VerticalAlignment="Top" Width="235" BorderThickness="0"/>
+        <Button x:Name="tafels" Background="#FFFFE0" Content="Tafels" HorizontalAlignment="Left" Margin="106,49,0,0" VerticalAlignment="Top" Width="88" Height="37" FontSize="15" Click="tafels_Click" Visibility="Hidden"/>
+        <Button x:Name="optellingen" Background="#FFFFE0" Content="Optellingen" HorizontalAlignment="Left" Margin="106,110,0,0" VerticalAlignment="Top" Width="88" Height="37" FontSize="15" Click="optellingen_Click" Visibility="Hidden"/>
+        <Button x:Name="delingen" Background="#FFFFE0" Content="Delingen" HorizontalAlignment="Left" Margin="106,171,0,0" VerticalAlignment="Top" Width="88" Height="37" FontSize="15" Click="delingen_Click" Visibility="Hidden"/>
+    </Grid>
+</Window>
