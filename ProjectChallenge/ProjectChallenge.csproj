@@ -56,11 +56,11 @@
     <Compile Include="Delingen.xaml.cs">
       <DependentUpon>Delingen.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Inlogscherm.xaml.cs">
+      <DependentUpon>Inlogscherm.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Leerstofselectie.xaml.cs">
       <DependentUpon>Leerstofselectie.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Taal.xaml.cs">
-      <DependentUpon>Taal.xaml</DependentUpon>
     </Compile>
     <Compile Include="Kennis.xaml.cs">
       <DependentUpon>Kennis.xaml</DependentUpon>
@@ -75,23 +75,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Inlogscherm.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Inlogscherm.xaml.cs">
-      <DependentUpon>Inlogscherm.xaml</DependentUpon>
-      <SubType>Code</SubType>
-    </Compile>
-    <Page Include="Leerstofselectie.xaml">
+    <Page Include="Inlogscherm.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Taal.xaml">
+    <Page Include="Leerstofselectie.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
